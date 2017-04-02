@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/greybonez/Repositories/KR_Exercises/CH1.h
+stdio.h
+-
+
+/Users/greybonez/Repositories/KR_Exercises/CH2.h
+limits.h
+-
+
+/Users/greybonez/Repositories/KR_Exercises/main.c
+stdio.h
+-
+CH1.h
+/Users/greybonez/Repositories/KR_Exercises/CH1.h
+CH2.h
+/Users/greybonez/Repositories/KR_Exercises/CH2.h
+
